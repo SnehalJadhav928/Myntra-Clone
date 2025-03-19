@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 5%;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    width: 99vw;
+  }
+  
+  /* Logo Styling */
+  .logo img {
+    height: 40px; /* Adjust logo size */
+    cursor: pointer;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #282c3f;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff3f6c;
+  }
+  
+  /* Search Bar */
+  .search {
+    border: none;
+    outline: none;
+    background-color: #f5f5f6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #282c3f;
+    width: 700px;
+    margin-left: 10px;
+  }
+  
+  .navbar i.fa-magnifying-glass {
+    font-size: 16px;
+    color: #696e79;
+    margin-left: 15px;
+  }
+  
+  /* Icons Section */
+  .icon2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .icon2 i{
+    font-size: 20px;
+    color: #282c3f;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon2 i:hover {
+    color: #ff3f6c;
+  }
+  
+
+  .bag-icon {
+    position: relative;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+  

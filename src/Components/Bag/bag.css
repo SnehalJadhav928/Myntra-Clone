@@ -1,0 +1,179 @@
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px; /* Increased padding */
+    background-color: #fff;
+    border-radius: 12px; /* Increased border-radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    font-family: sans-serif;
+  }
+  
+  .heading {
+    font-size: 32px; /* Increased font-size */
+    margin-bottom: 40px; /* Increased margin-bottom */
+    color: #282c3f;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px; /* Increased padding-bottom */
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    color: #777;
+    padding: 30px; /* Increased padding */
+    font-size: 16px; /* Increased font-size */
+  }
+  
+  .cart-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart-items-container {
+    flex: 0.7;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0; /* Increased padding */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .cart-item:hover {
+    background-color: #f9f9f9; /* Soft hover effect */
+  }
+  
+  .item-details {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .cart-image {
+    width: 140px; /* Increased width */
+    height: 140px; /* Increased height */
+    object-fit: contain;
+    margin-right: 20px; /* Increased margin */
+    border-radius: 8px; /* Increased border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  }
+  
+  .item-info {
+    flex-grow: 1;
+  }
+  
+  .cart-title {
+    font-size: 18px; /* Increased font-size */
+    color: #282c3f;
+    margin-bottom: 8px; /* Increased margin */
+    font-weight: 500; /* Stronger font-weight */
+  }
+  
+  .price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Increased margin */
+  }
+  
+  .cart-price {
+    font-size: 16px; /* Increased font-size */
+    color: #282c3f;
+    font-weight: 600; /* Stronger font-weight */
+    margin-right: 12px; /* Increased margin */
+  }
+  
+  .original-price {
+    font-size: 14px; /* Increased font-size */
+    color: #797a81;
+    text-decoration: line-through;
+    margin-right: 12px; /* Increased margin */
+  }
+  
+  .discount {
+    font-size: 14px; /* Increased font-size */
+    color: #20bd99;
+    font-weight: 600; /* Stronger font-weight */
+  }
+  
+  .return-policy {
+    font-size: 14px; /* Increased font-size */
+    color: #282c3f;
+    opacity: 0.8; /* Slightly faded text */
+  }
+  
+  .remove-btn {
+    background-color: #fff; /* White background */
+    color: #282c3f; /* Darker color */
+    border: 1px solid #e0e0e0; /* Added border */
+    padding: 10px 16px; /* Increased padding */
+    border-radius: 8px; /* Increased border-radius */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .remove-btn:hover {
+    background-color: #e0e0e0; /* Soft hover effect */
+    color: #000;
+  }
+  
+  .price-summary {
+    flex: 0.3;
+    background-color: #f7f7f7;
+    padding: 30px; /* Increased padding */
+    border-radius: 12px; /* Increased border-radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+  }
+  
+  .summary-heading {
+    font-size: 20px; /* Increased font-size */
+    color: #282c3f;
+    font-weight: 600; /* Stronger font-weight */
+    margin-bottom: 20px; /* Increased margin */
+  }
+  
+  .price-breakdown {
+    margin-bottom: 30px; /* Increased margin */
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px; /* Increased margin */
+    font-size: 15px; /* Increased font-size */
+    color: #282c3f;
+    opacity: 0.9; /* Slightly faded text */
+  }
+  
+  .total-amount {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; /* Increased font-size */
+    color: #282c3f;
+    font-weight: 600; /* Stronger font-weight */
+    padding-top: 15px; /* Increased padding */
+    border-top: 2px solid #e0e0e0; /* Thicker border */
+  }
+  
+  .place-order-btn {
+    background-color: #ff3f6c;
+    color: #fff;
+    border: none;
+    padding: 14px 24px; /* Increased padding */
+    border-radius: 8px; /* Increased border-radius */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600; /* Stronger font-weight */
+    width: 100%;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .place-order-btn:hover {
+    background-color: #e6294b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
